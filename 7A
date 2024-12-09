@@ -1,0 +1,37 @@
+##Programmierübung: Strings Rasieren
+x = input()
+y = len(x)
+print (x[1:y-1])
+##Programmierübung: Heads and Tails
+x = input()
+y = len(x)
+q = x[y-1]
+w = x[0]
+print (q,x[1:y-1],w,sep="")
+##Programmierübung: Next Letter
+x = input()
+y = ord(x) 
+if y == 90:
+ print("A") 
+if y < 90:
+ print(chr(y+1))
+ ##Programmierübung: Pig Latin
+x = input()
+z = len(x)
+y = x[1:z] 
+q = x[0]
+w = "ay"
+print(y,q,w,sep="")
+##Programmierübung: The Name Game
+x = input()
+z = len(x)
+y = "bo-b"
+t = x[1:z]
+q = "banana-fana "
+w = "fo-f"
+e = "fee-fi-"
+r = "mo-m"
+print(x,", ", x,", ",y,t,sep="")
+print(q,w,t,sep="")
+print(e,r,t,sep="")
+print(x,"!",sep="")
